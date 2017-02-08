@@ -19,13 +19,13 @@ app.use((req, res, next) => {
 });
 
 // Middleware to lock website on MAINTENANCE PAGE
-app.use((req, res,next) => {
-  res.render("maintenance", {
-    pageTitle: "Maintenance Page",
-  welcomeMsg1: "We will be back SOON!!",
-  welcomeMsg2: "This site is currently under development!!"
-  });
-});
+      // app.use((req, res,next) => {
+      //   res.render("maintenance", {
+      //     pageTitle: "Maintenance Page",
+      //   welcomeMsg1: "We will be back SOON!!",
+      //   welcomeMsg2: "This site is currently under development!!"
+      //   });
+      // });
 
 // Middleware to serve STATIC files
 app.use(express.static(__dirname + "/public"));
