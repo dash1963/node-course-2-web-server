@@ -4,6 +4,8 @@ const fs      = require("fs");
 var hbs = require("hbs");
 var app = express();
 
+var port = process.env.PORT || 3000;
+
 
 // Middleware to log activity on website
 app.use((req, res, next) => {
@@ -65,6 +67,6 @@ app.get("/bad", (req, res) => {
 });
 
 
-app.listen(3000, () => {
-  console.log("Server has staerted on port 3000!!");
+app.listen(port, () => {
+  console.log(`Server has staerted on port ${port}!!`);
 });
