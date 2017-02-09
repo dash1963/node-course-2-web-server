@@ -1,0 +1,19 @@
+
+~/devel/learnode/node-web-server$ git commit -m "setup heroku port and start script"
+[master 2d3af1f] setup heroku port and start script
+ 3 files changed, 8 insertions(+), 3 deletions(-)
+~/devel/learnode/node-web-server$ git push
+Counting objects: 5, done.
+Delta compression using up to 6 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 686 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dash1963/node-course-2-web-server.git
+   36e009a..2d3af1f  master -> master
+~/devel/learnode/node-web-server$ heroku create
+Creating app... done, pure-castle-64933
+https://pure-castle-64933.herokuapp.com/ | https://git.heroku.com/pure-castle-64933.git
+~/devel/learnode/node-web-server$ vi pure-castle.txt
+~/devel/learnode/node-web-server$ vi pure-castle.txt
+~/devel/learnode/node-web-server$
